@@ -1,0 +1,64 @@
+Apache Lucene Core
+Apache LuceneTM is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.
+
+Apache Lucene is an open source project available for free download. Please use the links on the right to access Lucene.
+
+LuceneTM Features
+Lucene offers powerful features through a simple API:
+
+Scalable, High-Performance Indexing
+over 150GB/hour on modern hardware
+small RAM requirements -- only 1MB heap
+incremental indexing as fast as batch indexing
+index size roughly 20-30% the size of text indexed
+Powerful, Accurate and Efficient Search Algorithms
+ranked searching -- best results returned first
+many powerful query types: phrase queries, wildcard queries, proximity queries, range queries and more
+fielded searching (e.g. title, author, contents)
+sorting by any field
+multiple-index searching with merged results
+allows simultaneous update and searching
+flexible faceting, highlighting, joins and result grouping
+fast, memory-efficient and typo-tolerant suggesters
+pluggable ranking models, including the Vector Space Model and Okapi BM25
+configurable storage engine (codecs)
+Cross-Platform Solution
+Available as Open Source software under the Apache License which lets you use Lucene in both commercial and Open Source programs
+100%-pure Java
+Implementations in other programming languages available that are index-compatible
+The Apache Software Foundation
+The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are defined by collaborative consensus based processes, an open, pragmatic software license and a desire to create high quality software that leads the way in its field. Apache Lucene, Apache Solr, Apache PyLucene, Apache Open Relevance Project and their respective logos are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners.
+
+DOWNLOAD
+Click toApache Lucene 8.2.0
+Apache Lucene 8.2.0
+Resources
+Mailing Lists
+Developer
+Features
+Releases
+System Requirements
+Release Docs
+8.2.0
+About
+License
+Who We are
+Events
+
+ASF links
+Apache Software Foundation
+Thanks
+Become a Sponsor
+Security
+Related Projects
+Apache Hadoop
+Apache ManifoldCF
+Apache Lucene.Net
+Apache Lucy
+Apache Mahout
+Apache Nutch
+Apache OpenNLP
+Apache Tika
+Apache Zookeeper
+Copyright © 2011-2019 The Apache Software Foundation, Licensed under the Apache License, Version 2.0. Privacy Policy
+Apache and the Apache feather logo are trademarks of The Apache Software Foundation. Apache Lucene, Apache Solr and their respective logos are trademarks of the Apache Software Foundation. Please see the Apache Trademark Policy for more information.

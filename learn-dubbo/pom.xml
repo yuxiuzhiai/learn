@@ -10,6 +10,47 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>learn-dubbo</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>learn-dubbo-echo</module>
+    </modules>
 
+    <properties>
+        <dubbo.version>2.7.3</dubbo.version>
+    </properties>
+
+    <dependencies>
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.dubbo</groupId>-->
+        <!--            <artifactId>dubbo</artifactId>-->
+        <!--            <version>${dubbo.version}</version>-->
+        <!--        </dependency>-->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-registry-zookeeper</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-configcenter-zookeeper</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-rpc-dubbo</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-config-api</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-remoting-netty4</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
